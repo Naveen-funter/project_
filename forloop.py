@@ -7,3 +7,8 @@ def reverse_string_with_loop(input_string):
 user_input = input("Enter a string to reverse: ")
 result = reverse_string_with_loop(user_input)
 print("Reversed string:", result)
+
+
+nums = [1, 2, 3, 4, 5, 6]
+evens = [n for n in nums if n % 2 == 0]
+print(evens)
